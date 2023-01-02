@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* style css */
+body{
+    background-color: #9badc9;
+}
+.bar {
+    background-color: aqua;
+    height: 90px;
+    border-bottom:3px solid ;
+}
+
+h1 {
+    font-family: "Gill Sans";
+    font-size: 50px;
+    padding: 20px;
+    margin-left: 25px;
+    float: left;
+}
+
+.link ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.link ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.link ul li a:hover {
+    background-color: aliceblue;
+    color: blue;
+}
+
+img {
+    float: right;
+    margin: 23px;
+    width: 50px;
+    height: 50px;
+}
+
+.container .image {
+    height: 300px;
+    width: 1420px;
+    border: 2px solid black;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.image .satu img {
+    width: 300px;
+    height: 250px;
+    float: left;
+    border: 2px dashed red;
+}
+
+.image .dua img {
+    width: 300px;
+    height: 250px;
+    float: left;
+    border: 2px dashed red;
+}
+
+.image .tiga img {
+    width: 300px;
+    height: 250px;
+    float: left;
+    border: 2px dashed red;
+}
+
+.image .empat img {
+    width: 300px;
+    height: 250px;
+    float: left;
+    border: 2px dashed red;
+}
+
+.h1 {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    margin-top: 80px;
+    margin-left: 550px;
+    background-color: aquamarine;
+    width: 340px;
+}
